@@ -1,0 +1,135 @@
+body{
+	background-image:url(images/back.jpg);
+	background-size:135%;
+}
+h1{
+	text-align:center;
+	color:aqua;
+	border:1px solid aqua;
+}
+h2{
+	color:#4B0082;	
+}	
+marquee{
+	border:3px double aqua;
+	border-radius:60px;
+	background-color:deepskyblue;
+}
+.p2{
+	width:50px;
+	height:50px;
+}
+.div1{
+	background-color:darkred;
+	padding:8px;
+	margin:30px;
+	border-radius:25px;
+	height:160px;
+	width:170px;
+	display:inline-block;
+}
+img{
+	width:120px;
+	height:120px;
+	padding:8px;
+	margin:15px;
+}
+.p1{
+	color:gray;
+}
+.button{
+	background-color:aqua;
+	border-radius:15px;
+	width:90px;
+	height:50px;
+	margin:5px;
+}
+.button3{
+	background-color:PaleTurquoise;
+	height:40px;
+	border:8px double deepskyblue;
+}
+form{
+	display:inline-block;
+}
+.button2{
+	background-color:gray;
+	border-radius:50px;
+	width:120px;
+	height:50px;
+	margin:5px;
+	top:50px;
+	left:40px;
+}
+.b3{
+	width:100px;
+	height:100px;
+	background-color:aqua;
+	border-radius:15px;
+	margin:5px;
+}	
+.button3:hover{
+	background-color:#20B2AA;
+	height:40px;
+	border:8px double deepskyblue;
+}
+.button3:active{
+	background-color:red;
+	height:40px;
+	border:8px double black;
+}
+.button:hover{
+	background-color:yellow;
+	border-radius:15px;
+	width:90px;
+	height:50px;
+	margin:5px;
+}
+.sform{
+	background-color:silver;
+	font-family:trebuchet ms;
+	width:500px;
+	height:500px;
+	border:2px solid black;
+}
+input{
+	width:450px;
+}
+.input2{
+	width:50px;
+}	
+.ubutton{
+	width:150px;
+	height:50px;
+	background-color:aqua;
+	margin-top:20px;
+	margin-bottom:10px;
+	font-family:arial black;
+	border-radius:15px;
+}
+.ubutton:hover{
+	background-color:blue;
+	color:deepskyblue;
+}
+.ubutton:active{
+	background-color:black;
+	color:white;
+}
+p{
+	padding-left:20px;
+}
+@media screen and (min-width:300px;){
+	div{
+	background-color:green;
+}
+}
+@media screen and (max-width:500px)and(min-width:399px;){
+	div{
+	background-color:yellow;
+}
+}
+@media screen and (min-width:600px;){
+	div{
+	background-color:blue;
+}
+}
